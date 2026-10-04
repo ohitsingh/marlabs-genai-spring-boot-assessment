@@ -1,0 +1,27 @@
+# Python
+marlabs-python-service/venv/
+marlabs-python-service/.venv/
+marlabs-python-service/__pycache__/
+marlabs-python-service/.pytest_cache/
+*.pyc
+
+# Java / Maven
+marlabs-assessment/target/
+marlabs-assessment/.idea/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Environment / Secrets
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

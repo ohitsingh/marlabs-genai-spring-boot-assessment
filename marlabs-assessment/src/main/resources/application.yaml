@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: marlabs-assessment
+
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 20MB
+
+server:
+  port: 8080
+
+python:
+  service:
+    base-url: http://localhost:8000
+    answer-path: /internal/answer
+    batch-path: /internal/process
