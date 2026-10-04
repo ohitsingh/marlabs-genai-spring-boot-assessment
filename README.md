@@ -1033,39 +1033,4 @@ Before submission, verify:
 
 ---
 
-# 31. Final Git Verification
 
-Check the working tree:
-
-```bash
-git status
-```
-
-Expected:
-
-```text
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-```
-
-View recent commits:
-
-```bash
-git log --oneline -3
-```
-
-Get the full final commit SHA:
-
-```bash
-git rev-parse HEAD
-```
-
-The final submission should contain:
-
-```text
-GitHub Repository URL
-+
-Full Final Commit SHA
-```
